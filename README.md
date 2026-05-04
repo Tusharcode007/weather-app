@@ -113,8 +113,7 @@ Just open `index.html` in your browser
 
 ## 📸 Screenshot
 
-![App Screenshot](./assets/screenshot.png)
-
+![Screenshot](./assets/screenshot.png)
 ---
 
 ## 🔥 Key Learning
