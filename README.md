@@ -113,8 +113,9 @@ Just open `index.html` in your browser
 
 ## 📸 Screenshot
 
-![Screenshot](./assets/screenshot.png)
----
+<p align="center">
+  <img src="./assets/screenshot.png" width="600"/>
+</p>
 
 ## 🔥 Key Learning
 - Learned async/await and API handling
