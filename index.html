@@ -19,12 +19,15 @@
 
         <div class="weather">
             <img src="images/rain.png" class="weather-icon" alt="">
+            <div>
             <h1 class="temp"> 20 c </h1>
             <h2 class="city"> Patna</h2>
+            </div>
 
-                <div class="details">
 
-                    <div class="col">
+                <div class="details1">
+
+                    <div class="col1">
                         <img src="images/wind.png" alt="">
                         <div>
                             <p class="wind">10 km/h</p>
@@ -32,13 +35,33 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row1">
                         <img src="images/humidity.png" alt="">
                         <div>
-                            <p class="humidity">29%</p>
+                            <p class="humidity">28%</p>
                             <p> humidity</p>
                         </div>
                     </div>
+                </div>
+
+                <div class="details2">
+
+                    <div class="col2">
+                        <!-- <img src="images/wind.png" alt=""> -->
+                        <div>
+                            <p class="pressure">1000 km/h</p>
+                            <p> pressure</p>
+                        </div>
+                    </div>
+
+                    <div class="row2">
+                        <!-- <img src="images/humidity.png" alt=""> -->
+                        <div>
+                            <p class="lat">25</p>
+                            <p> latitude</p>
+                        </div>
+                    </div>
+
 
                 </div>
         </div>
@@ -62,9 +85,16 @@
 
 
                     document.querySelector(".city").innerHTML = data.name;
+
                     document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "•c";
+                    
                     document.querySelector(".humidity").innerHTML = data.main.humidity + "%"; 
                     document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
+
+                    // new data add
+                    document.querySelector(".pressure").innerHTML =data.main.pressure + "hpa";
+
+                    document.querySelector(".lat").innerHTML = data.coord.lat + " deg," ;
 
             
         }

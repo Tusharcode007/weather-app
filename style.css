@@ -60,24 +60,54 @@ body{
 
 }
 .weather h1 {
+    display: inline-block;
     font-size: 80px;
     font-weight: 400px;
     margin-top: -10px;
 }
-.details{
+.details1{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
 }
-.row {
+.details2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.row1 {
+    display: flex;
+    align-items: right;
+    text-align: right;
+
+}
+.col1 {
     display: flex;
     align-items: center;
     text-align: left;
 
 }
-.col img {
+.row2 {
+    display: flex;
+    align-items: right;
+    text-align: right;
+
+}
+.col2 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+.col1 img {
+    width: 40px;
+    margin-right: 10px;;
+}
+.col2 img {
     width: 40px;
     margin-right: 10px;;
 }
