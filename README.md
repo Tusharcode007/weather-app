@@ -52,6 +52,9 @@ Just open `index.html` in your browser
 ---
 
 ## 📸 Screenshot
+<p align="center">
+  <img src="./assets/screenshot.png" width="500"/>
+</p>
 
 # 🌦️ Weather App
 
